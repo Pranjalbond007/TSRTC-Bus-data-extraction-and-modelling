@@ -11,6 +11,7 @@ Run Python Code - `python Data_conversion.py`
 Run Python Code - `python Data_segmentation.py`
 ### Results - 
 ### Graph Showing acceleration events - higher to lower dotted point and deceleration events - lower to higher dotted points
+Higher point - Orange dot, Lower point - Purple dot
 ![Image description](https://github.com/Pranjalbond007/TSRTC-Bus-data-extraction-and-modelling/blob/master/images/segmentation.jpg)
 
 ### Extracted Acceleration Events with significant parameters (each row belongs to an acceleration events)
