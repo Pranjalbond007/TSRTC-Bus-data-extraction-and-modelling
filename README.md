@@ -13,6 +13,15 @@ Run Python Code - `python Data_segmentation.py`
 ### Graph Showing acceleration events - higher to lower dotted point and deceleration events - lower to higher dotted points
 ![Image description](https://github.com/Pranjalbond007/TSRTC-Bus-data-extraction-and-modelling/blob/master/images/segmentation.jpg)
 
+### Extracted Acceleration Events with significant parameters (each row belongs to an acceleration events)
+Parameters:- T1-initial time, T2-final time	V1-initial velocity, V2-final velocity, V2-V1-Total velocity, D2-D1-Total distance covered, T2-T1- Total time, Max LA- Maximum longitudinal acceleration, Avg LA- Average longitudinal acceleration, yaw_max- Maximum yawrate, yaw_avg- Average yawrate, max_jerk- Maximum jerk, avg_jerk- Average jerk, init_lat- intial lattitude, init_long- initial longitude, final_lat- final lattitude, final_long- final longitude, FileName- Driver csv file 
+
+![Image description](https://github.com/Pranjalbond007/TSRTC-Bus-data-extraction-and-modelling/blob/master/images/events.png)
+
+### Extracted Deceleration Events with significant parameters (each row belongs to an acceleration events)
+Parameters - T1	T2	V1	V2	V2-V1	D2-D1	T2-T1	Min LA	Avg LA	yaw_max	yaw_avg	min_jerk	avg_jerk	jerk_list	init_lat	init_long	final_lat	final_long	FileName
+![Image description](https://github.com/Pranjalbond007/TSRTC-Bus-data-extraction-and-modelling/blob/master/images/dec_events.png)
+
 ## 3. Predicting Driver Behaviour using Unsupervised Clustering for Acceleration events
 Run Python Code - `python Acceleration_events_Clustering.py`
 ### Results - 
