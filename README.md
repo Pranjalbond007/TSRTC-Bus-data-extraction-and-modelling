@@ -20,6 +20,7 @@ Parameters:- T1-initial time, T2-final time	V1-initial velocity, V2-final veloci
 
 ### Extracted Deceleration Events with significant parameters (each row belongs to an acceleration events)
 Parameters:- T1-initial time, T2-final time	V1-initial velocity, V2-final velocity, V2-V1-Total velocity, D2-D1-Total distance covered, T2-T1- Total time, Min LA- Minimum longitudinal acceleration, Avg LA- Average longitudinal acceleration, yaw_max- Maximum yawrate, yaw_avg- Average yawrate, min_jerk- Minimum jerk, avg_jerk- Average jerk, init_lat- intial lattitude, init_long- initial longitude, final_lat- final lattitude, final_long- final longitude, FileName- Driver csv file
+
 ![Image description](https://github.com/Pranjalbond007/TSRTC-Bus-data-extraction-and-modelling/blob/master/images/dec_events.png)
 
 ## 3. Predicting Driver Behaviour using Unsupervised Clustering for Acceleration events
