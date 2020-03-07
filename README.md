@@ -1,2 +1,5 @@
 # TSRTC-Bus-data-extraction-and-modelling
-Data extraction and clustering techniques for predicting driver behaviours
+Data extraction from raw csv files.
+Run Python Code - 
+
+![Image description](link-to-image)
